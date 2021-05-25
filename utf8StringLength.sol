@@ -5,7 +5,7 @@ contract utf8String {
     //---------------------BEGIN Code to copy-paste--------------
 
 
-    function nameValidator(string memory str) public returns (bool){
+    function nameValidator(string memory str) public pure returns (bool){
         
         uint length = _utf8StringLength(str);
         
